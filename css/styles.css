@@ -18,14 +18,16 @@ body {
   color: #434455;
   font-family: "Roboto", sans-serif;
 }
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1158px;
+}
 /*header*/
 .header {
   border-bottom: 1px solid #e7e9fc;
-}
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 .header-container {
   display: flex;
@@ -135,12 +137,8 @@ h1 {
 .hero-image-button:focus {
   background-color: #404bbf;
 }
+
 /*2 секція*/
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 .advantages-list {
   display: flex;
   gap: 24px;
@@ -185,12 +183,7 @@ h1 {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+
 .our-team-maintext {
   line-height: 1.11;
   text-align: center;
@@ -236,6 +229,10 @@ h1 {
 }
 
 /*4 секція*/
+.section.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .section-title {
   font-size: 36px;
@@ -249,13 +246,19 @@ h1 {
 
 .portfolio-list {
   list-style: none;
-  margin: 0;
-  flex-wrap: wrap;
   justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .portfolio-item {
   background-color: #ffffff;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-name {
@@ -265,8 +268,13 @@ h1 {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin: 16px;
+  margin-bottom: 8px;
 }
-
+.portfolio-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .portfolio-type {
   font-size: 16px;
   line-height: 1.5;
