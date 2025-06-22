@@ -166,7 +166,7 @@ h1 {
   width: calc((100% - 72px) / 4);
 }
 
-.advantages-title-h3 {
+.advantages-title {
   margin-bottom: 8px;
   font-size: 20px;
   font-weight: 600;
