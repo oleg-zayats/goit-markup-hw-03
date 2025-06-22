@@ -99,6 +99,10 @@ body {
 /*1 секція*/
 .hero-image {
   background: #2e2f42;
+  padding: 188px 0;
+}
+.hero-image-maintext {
+  max-width: 496px;
 }
 
 h1 {
@@ -117,8 +121,14 @@ h1 {
   letter-spacing: 0.04em;
   background: #4d5ae5;
   color: #ffffff;
-  cursor: pointer;
   text-align: center;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
   margin: 0 auto;
 }
 .hero-image-button:hover,
