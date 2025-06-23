@@ -62,6 +62,7 @@ body {
 }
 .nav-link {
   padding: 24px 0;
+  display: block;
   text-decoration: none;
   color: inherit;
   font-weight: 500;
@@ -114,6 +115,7 @@ h1 {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-image-button {
@@ -145,7 +147,6 @@ h1 {
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-bottom: 8px;
 }
 
 .visually-hidden {
@@ -197,7 +198,6 @@ h1 {
   font-size: 36px;
 }
 .team-list {
-  background-color: #ffffff;
   display: flex;
   gap: 24px;
   list-style: none;
@@ -269,7 +269,6 @@ h1 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 16px;
   margin-bottom: 8px;
 }
 .portfolio-info {
